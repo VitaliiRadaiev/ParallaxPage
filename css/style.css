@@ -810,7 +810,7 @@ html, body {
 }
 
 .parallax__litehouse {
-  background: url("../img/lighthouse.png") 0 0 no-repeat;
+  background-image: url("../img/lighthouse.png");
   background-size: contain;
   width: 320px;
   height: 560px;
@@ -947,4 +947,4 @@ html, body {
 
 .webp .parallax__wave_6 { background: url(../img/waves/wave-paint.webp) 0 0/auto 101% repeat-x; }
 
-.webp .parallax__litehouse { background: url(../img/lighthouse.webp) 0 0 no-repeat; }
+.webp .parallax__litehouse { background-img: url(../img/lighthouse.webp); }
